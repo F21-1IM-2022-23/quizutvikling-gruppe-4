@@ -11,19 +11,8 @@ const questions = [
     options: [
       { text: "1914", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
       { text: "1939", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
-      { text: "1945", correct: false },
-      { text: "1946", correct: false },
-      { text: "1947", correct: false },
-      { text: "1948", correct: false },
-      { text: "1949", correct: false },
-      { text: "1950", correct: false },
-      { text: "1951", correct: false },
-      { text: "1952", correct: false },
-      { text: "1953", correct: false },
-      { text: "1954", correct: false },
-      { text: "1955", correct: false },
-      { text: "1956", correct: false },
-      { text: "1957", correct: false },
+      { text: "Ja", correct: false },
+      { text: "1910", correct: false }
       
     ],
     imageUrl: 'https://unsplash.it/400/200', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
@@ -34,7 +23,7 @@ const questions = [
     options: [
       { text: "Donald Trump", correct: false },
       { text: "George Washington", correct: true },
-      { text: "Obama", correct: false }
+      { text: "Bill Clinton", correct: false }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
@@ -50,11 +39,11 @@ const questions = [
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "Hvilken år faller Berlinmuren?",
+    question: "Hvor falt berlinmuren",
     options: [
-      { text: "1999", correct: false },
-      { text: "1979", correct: false },
-      { text: "1989", correct: true }
+      { text: "Juice World", correct: false },
+      { text: "Ohio", correct: false },
+      { text: "Berlin", correct: true }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
@@ -62,8 +51,8 @@ const questions = [
   {
     question: "Hvem oppdaget Amerika?",
     options: [
-      { text: "Christopher Columbus", correct: true },
-      { text: "En Danske", correct: false },
+      { text: "Christopher Columbus", correct: false },
+      { text: "En gæren Nordmann", correct: true },
       { text: "Obama", correct: false }
     ],
     imageUrl: 'https://unsplash.it/400/200',
