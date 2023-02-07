@@ -27,7 +27,7 @@ const questions = [
       
     ],
     imageUrl: 'Bilder/MicrosoftTeams-image.png', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
-    altText: 'Beskrivelse av bilde'
+    altText: '2 soldater i et sort hvit bilde sikter våpen mot himmelen'
   },
   {
     question: "Hvem var den første presidenten i USA",
@@ -37,7 +37,7 @@ const questions = [
       { text: "Obama", correct: false }
     ],
     imageUrl: 'Bilder/MicrosoftTeams-image (1).png',
-    altText: 'Beskrivelse av bilde'
+    altText: 'En statue av George Washington som sitter i en stol'
   },
   {
     question: "Hvilke byer ble bombet med atombomber i 1945?",
@@ -47,7 +47,7 @@ const questions = [
       { text: "Ohio og Drammen", correct: false }
     ],
     imageUrl: 'Bilder/MicrosoftTeams-image (2).png',
-    altText: 'Beskrivelse av bilde'
+    altText: 'Et sort hvit bilde av en eksplosjon satt i et hav'
   },
   {
     question: "Hvilken år faller Berlinmuren?",
@@ -57,7 +57,7 @@ const questions = [
       { text: "1989", correct: true }
     ],
     imageUrl: 'Bilder/MicrosoftTeams-image (3).png',
-    altText: 'Beskrivelse av bilde'
+    altText: 'Et svart hvit bilde av berlinemuren'
   },
   {
     question: "Hvem oppdaget Amerika?",
@@ -67,7 +67,7 @@ const questions = [
       { text: "Obama", correct: false }
     ],
     imageUrl: 'Bilder/MicrosoftTeams-image (4).png',
-    altText: 'Beskrivelse av bilde'
+    altText: 'Et forstørrelsesglass over teksten "United States" på et kart over USA'
   },
   // Kopier malen over for å legge til flere spørsmål. Husk å endre antall spørsmål øverst.
 ];
