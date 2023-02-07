@@ -7,6 +7,9 @@
 body { /* God praksis som gjør at nettsiden tar opp all tilgjengelig skjermplass både på mobil og PC*/
     min-height: 100vh;
     min-height: 100dvh;
+    background-color: #D5E1EB;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .oppsett { /* Gjør at innholdet strekker seg utover tilgjengelig skjermplass*/
@@ -18,7 +21,7 @@ body { /* God praksis som gjør at nettsiden tar opp all tilgjengelig skjermplas
 }
 
 header { /* påvirker headeren, som inneholder "Quiz"-teksten */
-    background-color: lightgray;
+    background-color: #B3BDC4;
     text-align: center;
     place-content: center;
 }
@@ -34,17 +37,17 @@ main { /* Plasserer og fordeler inneholdet som ligger i main */
 }
 
 footer {
-    background-color: lightgray;
+    background-color: #B3BDC4;
     padding: 1em;
     text-align: center;
 }
 
 h1 { /* Denne påvirker stilen til overskriften i headeren */
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 h2 { /* Denne påvirker stilen til Quiz-overskriften "hva kan du om [tema]?" */
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h3 { /* Denne påvirker stilen til hvert spørmål */
@@ -56,7 +59,7 @@ h4 { /* Denne påvirker kun teksten i footeren */
 }
 
 p { /* Påvirker kun startteksten som påvirker beskriver*/
-    font-size: 1rem;
+    font-size: 20px;
 }
 
 .resultater { /* Alle font relaterte stiler i denne klassen vil påvirke resultat-tallet */
@@ -65,4 +68,11 @@ p { /* Påvirker kun startteksten som påvirker beskriver*/
 
 button { /* påvirker stilen til knappene, det kan være lurt å gi de padding, margin og kanskje noe penere utseende */
     font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #90989E;
+    color: white;
+    border: none;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

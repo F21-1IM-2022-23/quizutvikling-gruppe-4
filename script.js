@@ -7,54 +7,56 @@ const questions = [
     ]
   },
   {
-    question: "[Skriv spørsmål 1 her]?",
+    question: "Når startet første verdenskrig?",
     options: [
-      { text: "Alternativ 1", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
-      { text: "Alternativ 2", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
-      { text: "Alternativ 3", correct: false } //Siste spørsmålslinje skal ikke ha komma.
+      { text: "1914", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
+      { text: "1939", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
+      { text: "Ja", correct: false },
+      { text: "1910", correct: false }
+      
     ],
-    imageUrl: 'https://unsplash.it/400/200', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
-    altText: 'Beskrivelse av bilde'
+    imageUrl: 'Bilder/MicrosoftTeams-image.png', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
+    altText: '2 soldater i et sort hvit bilde sikter våpen mot himmelen'
   },
   {
-    question: "[Skriv spørsmål 2 her]?",
+    question: "Hvem var den første presidenten i USA",
     options: [
-      { text: "Alternativ I", correct: true },
-      { text: "Alternativ II", correct: false },
-      { text: "Alternativ III", correct: false }
+      { text: "Donald Trump", correct: false },
+      { text: "George Washington", correct: true },
+      { text: "Bill Clinton", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
-    altText: 'Beskrivelse av bilde'
+    imageUrl: 'Bilder/MicrosoftTeams-image (1).png',
+    altText: 'En statue av George Washington som sitter i en stol'
   },
   {
-    question: "[Skriv spørsmål 3 her]?",
+    question: "Hvilke byer ble bombet med atombomber i 1945?",
     options: [
-      { text: "Alternativ A", correct: true },
-      { text: "Alternativ B", correct: false },
-      { text: "Alternativ C", correct: false }
+      { text: "Hiroshima og Nagasaki", correct: true },
+      { text: "New York og Miama", correct: false },
+      { text: "Ohio og Drammen", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
-    altText: 'Beskrivelse av bilde'
+    imageUrl: 'Bilder/MicrosoftTeams-image (2).png',
+    altText: 'Et sort hvit bilde av en eksplosjon satt i et hav'
   },
   {
-    question: "[Skriv spørsmål 4 her]?",
+    question: "Hvor falt berlinmuren",
     options: [
-      { text: "Alternativ .", correct: true },
-      { text: "Alternativ ..", correct: false },
-      { text: "Alternativ ...", correct: false }
+      { text: "Juice World", correct: false },
+      { text: "Ohio", correct: false },
+      { text: "Berlin", correct: true }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
-    altText: 'Beskrivelse av bilde'
+    imageUrl: 'Bilder/MicrosoftTeams-image (3).png',
+    altText: 'Et svart hvit bilde av berlinemuren'
   },
   {
-    question: "[Skriv spørsmål 5 her]?",
+    question: "Hvem oppdaget Amerika?",
     options: [
-      { text: "Alternativ -", correct: true },
-      { text: "Alternativ +", correct: false },
-      { text: "Alternativ x", correct: false }
+      { text: "Christopher Columbus", correct: false },
+      { text: "En gæren Nordmann", correct: true },
+      { text: "Obama", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
-    altText: 'Beskrivelse av bilde'
+    imageUrl: 'Bilder/MicrosoftTeams-image (4).png',
+    altText: 'Et forstørrelsesglass over teksten "United States" på et kart over USA'
   },
   // Kopier malen over for å legge til flere spørsmål. Husk å endre antall spørsmål øverst.
 ];
