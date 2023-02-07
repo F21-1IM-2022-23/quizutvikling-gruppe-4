@@ -26,7 +26,7 @@ const questions = [
       { text: "1957", correct: false },
       
     ],
-    imageUrl: 'https://unsplash.it/400/200', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
+    imageUrl: 'Bilder/MicrosoftTeams-image.png', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
     altText: 'Beskrivelse av bilde'
   },
   {
@@ -36,7 +36,7 @@ const questions = [
       { text: "George Washington", correct: true },
       { text: "Obama", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'Bilder/MicrosoftTeams-image (1).png',
     altText: 'Beskrivelse av bilde'
   },
   {
@@ -46,7 +46,7 @@ const questions = [
       { text: "New York og Miama", correct: false },
       { text: "Ohio og Drammen", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'Bilder/MicrosoftTeams-image (2).png',
     altText: 'Beskrivelse av bilde'
   },
   {
@@ -56,7 +56,7 @@ const questions = [
       { text: "1979", correct: false },
       { text: "1989", correct: true }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'Bilder/MicrosoftTeams-image (3).png',
     altText: 'Beskrivelse av bilde'
   },
   {
@@ -66,7 +66,7 @@ const questions = [
       { text: "En Danske", correct: false },
       { text: "Obama", correct: false }
     ],
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: 'Bilder/MicrosoftTeams-image (4).png',
     altText: 'Beskrivelse av bilde'
   },
   // Kopier malen over for å legge til flere spørsmål. Husk å endre antall spørsmål øverst.
