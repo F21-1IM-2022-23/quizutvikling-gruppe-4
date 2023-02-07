@@ -7,51 +7,64 @@ const questions = [
     ]
   },
   {
-    question: "[Skriv spørsmål 1 her]?",
+    question: "Når startet første verdenskrig?",
     options: [
-      { text: "Alternativ 1", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
-      { text: "Alternativ 2", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
-      { text: "Alternativ 3", correct: false } //Siste spørsmålslinje skal ikke ha komma.
+      { text: "1914", correct: true }, //"true" = riktig svar. Skriv det inn i ulike linjer for å endre hvilken knapp som er riktig
+      { text: "1939", correct: false }, //Legg til eller fjern så mange svaralternativ som dere ønsker.
+      { text: "1945", correct: false },
+      { text: "1946", correct: false },
+      { text: "1947", correct: false },
+      { text: "1948", correct: false },
+      { text: "1949", correct: false },
+      { text: "1950", correct: false },
+      { text: "1951", correct: false },
+      { text: "1952", correct: false },
+      { text: "1953", correct: false },
+      { text: "1954", correct: false },
+      { text: "1955", correct: false },
+      { text: "1956", correct: false },
+      { text: "1957", correct: false },
+      
     ],
     imageUrl: 'https://unsplash.it/400/200', //bytt ut med en ny bildeaddresse for hvert spørsmål. 400 og 200 er størrelsen i pixler.
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 2 her]?",
+    question: "Hvem var den første presidenten i USA",
     options: [
-      { text: "Alternativ I", correct: true },
-      { text: "Alternativ II", correct: false },
-      { text: "Alternativ III", correct: false }
+      { text: "Donald Trump", correct: false },
+      { text: "George Washington", correct: true },
+      { text: "Obama", correct: false }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 3 her]?",
+    question: "Hvilke byer ble bombet med atombomber i 1945?",
     options: [
-      { text: "Alternativ A", correct: true },
-      { text: "Alternativ B", correct: false },
-      { text: "Alternativ C", correct: false }
+      { text: "Hiroshima og Nagasaki", correct: true },
+      { text: "New York og Miama", correct: false },
+      { text: "Ohio og Drammen", correct: false }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 4 her]?",
+    question: "Hvilken år faller Berlinmuren?",
     options: [
-      { text: "Alternativ .", correct: true },
-      { text: "Alternativ ..", correct: false },
-      { text: "Alternativ ...", correct: false }
+      { text: "1999", correct: false },
+      { text: "1979", correct: false },
+      { text: "1989", correct: true }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
   },
   {
-    question: "[Skriv spørsmål 5 her]?",
+    question: "Hvem oppdaget Amerika?",
     options: [
-      { text: "Alternativ -", correct: true },
-      { text: "Alternativ +", correct: false },
-      { text: "Alternativ x", correct: false }
+      { text: "Christopher Columbus", correct: true },
+      { text: "En Danske", correct: false },
+      { text: "Obama", correct: false }
     ],
     imageUrl: 'https://unsplash.it/400/200',
     altText: 'Beskrivelse av bilde'
